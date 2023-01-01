@@ -1,0 +1,52 @@
+TABLE PERSON
+TABLE PERSON
+
+id	Age	Name      Spouse_id     
+1	47	John      3
+2	24	Steve
+3	21	Mary
+4	33	Martin    6
+5	35	Goerge
+6	46	Lisa
+
+
+"""our interest is to find a table  with spouse name and spouse age"""
+
+id	Age	Name      Spouse_id     Spouse_age     Spouse_name
+1	47	John      3
+2	24	Steve
+3	21	Mary
+4	33	Martin    6
+5	35	Goerge
+6	46	Lisa
+
+""" Result would be like as follows:"""
+
+id	Age	Name      Spouse_id     Spouse_age     Spouse_name
+1	47	John      3             21             Mary
+4	33	Martin    6             46             Lisa
+
+
+"""General Syntax for the query"""
+
+TABLE_NAME1
+INNER JOIN
+TABLE_NAME2
+ON
+TABLE_NAME1.FIELD1 = TABLE_NAME2.FIELD2
+
+
+""" Syntax or say join statement for the discussed query"""
+SELECT 
+	T1.id,
+	T1.age,
+	T1.name,
+	T1.spuse_id,
+	T2.age as Spouse_age
+	T2.name as Spouse_name
+FROM
+	PERSON as T1
+	INNER JOIN
+	PERSON as T2
+	ON
+	T1.id = T2.spuse_id

@@ -1,0 +1,5 @@
+"name","type","length","leftDigits","rightDigits"
+"index","INTEGER","5","5","0"
+"MID","STRING","9","0","0"
+"PID","STRING","10","0","0"
+"ID","INTEGER","5","5","0"

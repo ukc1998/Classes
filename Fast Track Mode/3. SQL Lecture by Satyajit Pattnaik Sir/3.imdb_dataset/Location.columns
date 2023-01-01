@@ -1,0 +1,4 @@
+"name","type","length","leftDigits","rightDigits"
+"index","INTEGER","3","3","0"
+"Name","STRING","99","0","0"
+"LID","INTEGER","3","3","0"

@@ -1,0 +1,7 @@
+"name","type","length","leftDigits","rightDigits"
+"index","INTEGER","4","4","0"
+"MID","STRING","9","0","0"
+"title","STRING","59","0","0"
+"year","INTEGER","4","4","0"
+"rating","DECIMAL","3","1","1"
+"num_votes","INTEGER","7","7","0"
